@@ -1,0 +1,167 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+body{
+	font-family: Roboto;
+}
+.wrapper{
+	min-height: 100%;
+	overflow: hidden;
+}
+.header{
+	background-color: #d3ab08;
+}
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.header__row{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	justify-content: space-between;
+}
+.menu{
+	font-weight: 600;
+	padding-top: 30px;
+}
+a{
+	margin-left: 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+}
+.empty{
+	min-height: 200px;
+	border: 0px solid #000;
+}
+
+.imag{
+	background: url(/images/Layer_14.png) 0 0 / 100% 100% no-repeat;
+	min-height: 586px;
+}
+
+h4{
+	color: #fefefe;
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 54.17px;
+	text-transform: uppercase;
+	letter-spacing: 0.81px;
+	text-align: center;
+}
+.two{
+	margin-top: 40px;
+}
+.info__row{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.nash{
+	color: #000000;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	border-right: 1px solid #ffcc01;
+	margin: 0px;
+}
+.nash span{
+	color: #ffcc01;
+}
+.info__row{
+	min-height: 200px;
+	align-items: center;
+}
+.text{
+	margin-left: 3px;
+	max-width: 486px;
+}
+.elit{
+	color: #000000;
+	font-family: Roboto;
+	font-size: 21px;
+	font-weight: 300;
+	line-height: 29.17px;
+	/* Text style for "L, orem ip" */
+	letter-spacing: 0.42px;
+	border-left: 1px solid black;
+}
+h3{
+	font-size: 29px;
+	font-weight: 500;
+	letter-spacing: 0.58px;
+	text-align: left;
+}
+.citata{
+	max-width: 385px;
+	text-align: left;
+	margin-top: 28px;
+}
+.lorem{
+	font-size: 21px;
+	font-weight: 300;
+	letter-spacing: 0.42px;
+}
+.card__row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.can{
+	background-color: rgb(255, 255, 255);
+	padding: 10px;
+	min-width: 550px;
+	margin-bottom: 60px;
+	border: 5px solid #ebebeb;
+}
+
+.read{
+	text-align: left;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.dva a{
+	color: yellow;
+}
+.read2{
+	padding: 20px 30px;
+}
+.can:hover{
+	background-color: #d3ab08;
+	
+}
+
+.read a{
+	font-size: 21px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.42px;
+}
+.footer__row{
+	text-align: center;
+}
+.footer{
+	background-color: #ffcc01;
+	min-height: 200px;
+	display: flex;
+	align-items: center;
+}
+img{
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+.soz{
+	color: #ffffff;
+	font-size: 25px;
+	font-weight: 300;
+	font-variant: small-caps;
+	letter-spacing: 0.5px;
+}
+
+
